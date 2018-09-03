@@ -13,12 +13,14 @@ jQuery(function ($) {
         if (windowWidth <= 979) {
             if ($('#mobile-nav').length > 0) {
                 mobileMenuClone.insertAfter('#menu');
-                $('#navigation-mobile #menu-nav').attr('id', 'menu-nav-mobile');
+                $('#about .accordion-group .collapse').removeClass('in');
+                
             }
         } else {
             $('#navigation-mobile').css('display', 'none');
             if ($('#mobile-nav').hasClass('open')) {
                 $('#mobile-nav').removeClass('open');
+                $('#about .accordion-group .collapse').addClass('in');
             }
         }
     }
@@ -77,11 +79,12 @@ jQuery(function ($) {
             thumb_links: 0, // Individual thumb links for each slide
             thumbnail_navigation: 0, // Thumbnail navigation
             slides: [// Slideshow Images
-                {image: URLBASE + '/assets/img/slider-images/image01.jpg', title: '<div class="slide-content">PROGRAMADOR / WEB DEVELOPER</div>', thumb: '', url: ''},
-                {image: URLBASE + '/assets/img/slider-images/image02.jpg', title: '<div class="slide-content">MAGENTO DEVELOPER</div>', thumb: '', url: ''},
-                {image: URLBASE + '/assets/img/slider-images/image03.jpg', title: '<div class="slide-content">DOMINIO DE DIVERSAS LINGUAGENS</div>', thumb: '', url: ''},
+                {image: URLBASE + '/assets/img/slider-images/image06.jpg', title: '<div class="slide-content">TECNOLOGIAS ATUAIS</div>', thumb: '', url: ''},
+                {image: URLBASE + '/assets/img/slider-images/image01.jpg', title: '<div class="slide-content">DESENVOLVIMENTO DE SOFTWARES</div>', thumb: '', url: ''},
+                //{image: URLBASE + '/assets/img/slider-images/image02.jpg', title: '<div class="slide-content">MAGENTO DEVELOPER</div>', thumb: '', url: ''},
+                {image: URLBASE + '/assets/img/slider-images/image03.jpg', title: '<div class="slide-content">DIVERSAS LINGUAGENS</div>', thumb: '', url: ''},
                 {image: URLBASE + '/assets/img/slider-images/image04.jpg', title: '<div class="slide-content">E-CCOMERCE DEVELOPER</div>', thumb: '', url: ''},
-                {image: URLBASE + '/assets/img/slider-images/image05.jpg', title: '<div class="slide-content">WEB DEVELOPER</div>', thumb: '', url: ''}
+                {image: URLBASE + '/assets/img/slider-images/image05.jpg', title: '<div class="slide-content">ARQUITETURA DE SERVIÇOS</div>', thumb: '', url: ''}
             ],
 
             // Theme Options			   
@@ -166,10 +169,13 @@ jQuery(function ($) {
                 padding: 0,
                 beforeShow: function () {
                     this.title = $(this.element).attr('title');
-                    this.title = '<h4>' + this.title + '</h4>' + '<p>' + $(this.element).parent().find('img').attr('alt') + '</p>';
+                    this.link = $(this.element).attr('data-href');
+                    this.title = '<h4> <a href="'+this.link+'" target="_blank"> ' + this.title + '</a></h4>' + '<p>' + $(this.element).parent().find('img').attr('alt') + '</p>';
                 },
                 helpers: {
                     title: {type: 'inside'},
+                },
+                afterLoad:function(){                    
                 }
             });
 
@@ -453,7 +459,7 @@ jQuery(function ($) {
         PORTIFOLIO.goUp();
         PORTIFOLIO.filter();
         PORTIFOLIO.fancyBox();
-        PORTIFOLIO.contactForm();
+        //PORTIFOLIO.contactForm();
         PORTIFOLIO.tweetFeed();
         PORTIFOLIO.scrollToTop();
         PORTIFOLIO.utils();

@@ -3,7 +3,7 @@
 
 
 
-class homeController extends controller {
+class homeController extends Controller {
 
     public function __construct() {
         parent::__construct();        
@@ -11,12 +11,14 @@ class homeController extends controller {
         //$u->verificarLogin();
     }
 
-    public function index() {        
-        $dados = null;
-        $this->loadTemplate('home', $dados);
-        //$this->loadViewInTemplate('blocks/pagination', $dados);
-        
-         
+    public function index() {                
+        $projetosModel = new Projetos();         
+        $dados = array(
+            'teste' => 123,
+            'projetosModel' => $projetosModel
+        );         
+        $this->loadTemplate('home', $dados);        
+        //$this->loadViewInTemplate('blocks/pagination', $dados);         
         
     }
 

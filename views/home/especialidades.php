@@ -9,137 +9,224 @@
                 </div>
             </div>
         </div>
-        <!-- End Title Page -->
-        <!-- People -->
+
         <div class="row">
-            <!-- Start Profile -->
-            <div class="span4 profile">
-                <div class="image-wrap">
-                    <div class="hover-wrap">
-                        <span class="overlay-img"></span>
-                        <span class="overlay-text-thumb">Programador / Web Developer</span>
+            <div class="span4">                
+                <div class="accordion-group">
+                    <div class="accordion-heading accordionize">
+                        <a class="accordion-toggle active" data-toggle="collapse" data-parent="#accordionArea" href="#area1">
+                            Linguagens Computacionais
+                            <span class="font-icon-arrow-simple-down"></span>
+                        </a>
                     </div>
-                    <img src="include/img/profile/foto.jpg" alt="Elde Xavier">
+                    <div id="area1" class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                            <ul class="ul-profile-description">
+                                <li>Java SE;</li>
+                                <li>Java EE;</li>
+                                <li>Java ME;</li>
+                                <li>Javascript;</li>
+                                <li>PHP;</li>
+                                <li>Visual Basic;</li>
+                                <li> C#; </li>
+                                <li>C++;</li>				
+                                <li> C ; </li>                                
+                                <li> Asp; </li>
+                                <li> Aspx; </li>
+                                <li> Ruby; </li>
+                                <li> Python; </li>
+                                <li> Pearl; </li>
+                                <li> Basic; </li>
+                                <li> Assembler; </li> 
+                                <li> Nodejs; </li> 
+                                <li> Delph; </li> 
+                                <li> Lisp; </li> 
+                                <li> Haskell; </li> 
+                                <li> .NET; </li> 
+                                <li> Fortran; </li> 
+                                <li> Cobol; </li> 
+                                <li> Pascal; </li> 
+                                <li> Prolog;  </li> 
+                                <li> QPL; </li> 
+                                <li> QHaskell;  </li> 
+                                <li> Q; </li> 				
+                                <li> Skala; </li> 
+                                <li> Kotlin; </li> 
+                                <li> HTML; </li>
+                                <li> XML; </li>
+                                <li> JSon; </li>
+                                <li> CSS; </li>
+                                <li> Nodejs; </li>
+                            </ul>
+                        </div>
+                    </div>   
                 </div>
-                <h3 class="profile-name">Elder Xavier</h3>            
-                <p class="profile-description">Desenvolvimento de softwares é coisa seria.
-                    Um codigo limpo e de qualidade é impressindivel para a elaboração de qualquer projeto, seja para Web, Desktop ou Mobille.
-                </p>
-                <p class="profile-description">
-                    Para isso é muito importante manter um padrão de arquitetura e controle de versão além do domínio das tecnologias utilizadas,
-                    o emprego de algoritimos apropriados para cada aplicação, lógica, raciocínio, agilidade e muito café. 
-                </p>
-                <p class="profile-description">
-                    Com o emprego das funções técnicas a serem renderizadas em um sistema computacional um programador deve sempre ter que quem irá usufruir 
-                    do seu trabalho são pessoas, e projetar sua aplicação para que sejam facilmente compreendidas pela máquina que está executando o programa 
-                    como pelo usuário da aplicação.
-                </p>	
-                <p class="profile-description">
-                    Para desenvolver um sistema com os padrões que usufluo adiquiri os seguintes conhecimentos: 
-                </p>
-                <div class="social">
-                    <ul class="social-icons">
-                        <li><a href="https://twitter.com/elder_xav5" target="_blank" title="Visite meu Twitter" ><i class="font-icon-social-twitter"></i></a></li>
-                        <!--<li><a href="#"><i class="font-icon-social-dribbble"></i></a></li>-->
-                        <li><a href="https://plus.google.com/117185886321852285202" target="_blank" title="Visite meu G+"><i class="font-icon-social-google-plus"></i></a></li>
-                        <li><a href="https://www.facebook.com/elder.sergioxavier" target="_blank" title="Visite meu Facebook"><i class="font-icon-social-facebook"></i></a></li>
-                        <li><a href="https://www.linkedin.com/pub/elder-sergio-xavier/56/62a/3b6" target="_blank" title="Visite meu Linkedin"><i class="font-icon-social-linkedin"></i></a></li>
-                    </ul>
+                <div class="accordion-group">
+                    <div class="accordion-heading accordionize">
+                        <a class="accordion-toggle active" data-toggle="collapse" data-parent="#accordionArea" href="#area2">
+                            Banco de Dados
+                            <span class="font-icon-arrow-simple-down"></span>
+                        </a>
+                    </div>
+                    <div id="area2" class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                            <ul class="ul-profile-description">
+                                <li>Base I e Base II; </li>
+                                <li>Mysql; </li>				
+                                <li>SQL Server;</li>
+                                <li>Blackbird;</li>
+                                <li>PL-SQL;</li>
+                                <li>Oracle Database;</li>
+                                <li>SQ-Lite;</li>
+                                <li>Mongo DB;</li>
+                                <li>Firebase;</li>
+                                <li>Big Query;</li>
+                            </ul>	
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- End Profile -->
-            <!-- Start Profile -->
-            <div class="span4 profile">  			            
-                <h3 class="profile-name">Linguagens de Programação</h3>
-                <ul class="ul-profile-description">
-                    <li> Java SE;</li>
-                    <li>Java EE;</li>
-                    <li>Javascript;</li>
-                    <li>Visual Basic;</li>
-                    <li>C++;</li>				
-                    <li> C ; </li>
-                    <li> C#; </li>
-                    <li> Asp; </li>
-                    <li> Aspx; </li>
-                    <li> Ruby; </li>
-                    <li> Python; </li>
-                    <li> Pearl; </li>
-                    <li> Basic; </li>
-                    <li> Assembler; </li> 
-                    <li> Nodejs; </li> 
-                    <li> Delph; </li> 
-                    <li> Lisp; </li> 
-                    <li> Haskell; </li> 
-                    <li> .NET; </li> 
-                    <li> Fortran; </li> 
-                    <li> Cobol; </li> 
-                    <li> Pascal; </li> 
-                    <li> Prolog;  </li> 
-                    <li> QPL; </li> 
-                    <li> QHaskell;  </li> 
-                    <li> Q;  </li> 				
-                </ul>
-                <h3 class="profile-name">Servidores</h3>
-                <ul class="ul-profile-description">
-                    <li>Apache;</li>
-                    <li>Tomcat;</li>
-                    <li>MS IIS;</li>
-                    <li>Debian Server;</li>
-                    <li>Ubuntu Server;</li>
-                    <li>Windows Server 2003;</li>
-                    <li>Windows Server 2008;</li>				
-                </ul>	
-                <h3 class="profile-name">Controle de versão</h3>
-                <ul class="ul-profile-description">
-                    <li>Git</li>								
-                    <li>SNV</li>
-                </ul>	
+            <div class="span4">                
+                <div class="accordion-group">
+                    <div class="accordion-heading accordionize">
+                        <a class="accordion-toggle active" data-toggle="collapse" data-parent="#accordionArea" href="#area5">
+                            Frameworks
+                            <span class="font-icon-arrow-simple-down"></span>
+                        </a>
+                    </div>
+                    <div id="area5" class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                            <span>PHP</span>
+                            <ul class="ul-profile-description">                                
+                                <li>Zend;</li>                                
+                                <li>Laravel;</li>                                
+                                <li>Codeigniter;</li>
+                                <li>Cake;</li>                                
+                                <li>Yii;</li>
+                                <li>Symfony;</li>
+                                <li>Drupal;</li>                                
+                            </ul>
+                            <span>Java</span>
+                            <ul class="ul-profile-description">                                
+                                <li>Spring MVC</li>
+                                <li>Spring Boot</li>
+                                <li>Hibernate</li>
+                                <li>JPA</li>
+                                <li>EJB</li>
+                                <li>JPS</li>
+                                <li>Prime Faces</li>
+                                <li>Log4J</li>
+                                <li>JSE</li>
+                                <li>JSF</li>
+                            </ul>
+                            <span>Javascript</span>
+                            <ul class="ul-profile-description">                                
+                                <li>Jquery;</li>								
+                                <li>Bootstrap;</li>                                                                
+                                <li>Angular;</li>
+                                <li>React js;</li>
+                                <li>Backbone.js;</li>
+                                <li>Validate.js ;</li>                                
+                                <li>Vue.js ;</li>
+                                <li>Typescript;</li>
+                            </ul>
+                            <span>C#</span>
+                            <ul class="ul-profile-description">
+                                <li>Net framework;</li>
+                                <li>Web Forms;</li>
+                            </ul>
+                            <span>C++</span>
+                            <ul class="ul-profile-description">
+                                <li>Qt;</li>
+                                <li>GNOME;</li>
+                            </ul>
+                            <span>Python</span>
+                            <ul class="ul-profile-description">
+                                <li>Django;</li>
+                            </ul>
+                            <span>Ruby</span>
+                            <ul class="ul-profile-description">
+                                <li>Ruby on Rails;</li>
+                            </ul>                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-group">
+                    <div class="accordion-heading accordionize">
+                        <a class="accordion-toggle active" data-toggle="collapse" data-parent="#accordionArea" href="#area4">
+                            Controle de Versão
+                            <span class="font-icon-arrow-simple-down"></span>
+                        </a>
+                    </div>
+                    <div id="area4" class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                            <ul class="ul-profile-description">
+                                <li>VCS</li>
+                                <li>Git</li>
+                                <li>SNV</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- End Profile -->
-            <!-- Start Profile -->
-            <div class="span4 profile">        	
-                <h3 class="profile-name">Banco de Dados</h3>            
-                <ul class="ul-profile-description">
-                    <li>Base I e Base II; </li>
-                    <li>Mysql; </li>				
-                    <li>MS SQL Server;</li>
-                    <li>Blackbird;</li>
-                    <li>PL-SQL;</li>
-                    <li>Oracle Database;</li>
-                    <li>SQ-Lite;</li>
-                </ul>	
-                <h3 class="profile-name">Linguagens de Marcação</h3>
-                <ul class="ul-profile-description">
-                    <li>HTML;</li>
-                    <li>XML;</li>
-                    <li>JSon;</li>
-                </ul>
-                <h3 class="profile-name">Linguagem de Estilo</h3>
-                <ul class="ul-profile-description">
-                    <li>CSS;</li>								
-                </ul>
-                <h3 class="profile-name">Frameorks</h3>
-                <ul class="ul-profile-description">
-                    <li>Jquery;</li>								
-                    <li>Bootstrap;</li>
-                    <li>Validate.js ;</li>
-                    <li>Zend e Zend 2;</li>
-                    <li>Marven;</li>
-                    <li>Angular e Angular 2;</li>
-                    <li>Backbone.js;</li>
-                    <li>Laravel;</li>
-                    <li>Net framework;</li>
-                </ul>
-                <h3 class="profile-name">CMS</h3>
-                <ul class="ul-profile-description">
-                    <li>Magento</li>								
-                    <li>Drupal</li>
-                    <li>Wordpress</li>
-                    <li>Vtex</li>	
-                </ul>                        
-            </div>
+            <div class="span4">
+                <div class="accordion-group">
+                    <div class="accordion-heading accordionize">
+                        <a class="accordion-toggle active" data-toggle="collapse" data-parent="#accordionArea" href="#area3">
+                            Servidores
+                            <span class="font-icon-arrow-simple-down"></span>
+                        </a>
+                    </div>
+                    <div id="area3" class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                            <ul class="ul-profile-description">
+                                <li>Apache;</li>
+                                <li>Tomcat;</li>
+                                <li>Jboss;</li>
+                                <li>MS IIS;</li>
+                                <li>Debian Server;</li>
+                                <li>Ubuntu Server;</li>
+                                <li>Red Hat</li>
+                                <li>CentOS</li>
+                                <li>Windows Server;</li>				
+                                <li>AWS EC2</li>	
+                                <li>Google Cloud</li>	
+                                <li>Nginx</li>                                
+                            </ul>	
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group">
+                    <div class="accordion-heading accordionize">
+                        <a class="accordion-toggle active" data-toggle="collapse" data-parent="#accordionArea" href="#area6">
+                            CMS
+                            <span class="font-icon-arrow-simple-down"></span>
+                        </a>
+                    </div>
+                    <div id="area6" class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                            <ul class="ul-profile-description">
+                                <li>Magento;</li>
+                                <li>Drupal;</li>
+                                <li>Wordpress;</li>
+                                <li>Vtex;</li>
+                                <li>Vtex;</li>
+                                <li>PrestaShop;</li>
+                                <li>OpenCart;</li>
+                                <li>Moodle;</li>                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>            
+
             <!-- End Profile -->
         </div>
+
+
+
         <!-- End People -->
     </div>
 </div>

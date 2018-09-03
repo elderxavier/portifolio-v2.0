@@ -176,7 +176,8 @@ h3.spec {
 
 #home-slider #slidecaption {
 	width: 100%;
-	line-height: 250px;
+	line-height: 65px;
+        padding-top: 8%;
 	margin: 0;
 	text-align: center;
 	text-shadow: none;	
@@ -647,6 +648,7 @@ nav#menu #menu-nav li a:hover {
 	overflow: hidden;
 	margin-bottom: 25px;
 	cursor: pointer;
+        max-height: 395px !important;
 }
 
 .image-wrap img {

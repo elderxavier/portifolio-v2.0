@@ -39,19 +39,19 @@
                 <nav id="menu">
                     <ul id="menu-nav">
                         <li class="current"><a href="#home-slider">Home</a></li>
-                        <li><a href="#work">Utimos Projetos</a></li>
+                        <li><a href="#work">Projetos em Destaque</a></li>
                         <li><a href="#about">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>                        
                         <li><a href="#contact">Contato</a></li>
                         <!--<li><a href="blog/blog.html" class="external" target="_blank">Blog</a></li>-->
                     </ul>
                 </nav>
             </div>
         </header>        
-        
-        <?php 
-        //$this->loadViewInTemplate($viewName, $viewData);
-            $this->loadView('home/projetos');
+        <?php         
+            $this->loadViewInTemplate('home/projetos',$viewData );
             $this->loadView('home/especialidades');
+            $this->loadView('home/sobre');
             $this->loadView('home/contato');
             
         ?>
