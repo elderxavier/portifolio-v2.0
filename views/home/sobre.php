@@ -15,7 +15,7 @@
                 <div class="image-wrap">
                     <div class="hover-wrap">
                         <span class="overlay-img"></span>
-                        <span class="overlay-text-thumb">Programador / Web Developer</span>
+                        <span class="overlay-text-thumb">Desenvolvedor Full Stack</span>
                     </div>
                     <img src="<?php echo BASE; ?>/assets/img/profile/foto.jpg" alt="Elde Xavier">
                 </div>                
